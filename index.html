@@ -24,7 +24,7 @@
     </div>
   </nav>
   <nav id="hamburger-nav">
-    <div class="logo">Mohamed Oussema Boussida</div>
+    <div class="logo"></div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
         <span></span>
@@ -56,9 +56,9 @@
     }
 
     .profile-pic {
-      width: 100%;
+      width: 140%;
       /* L'image remplira le conteneur */
-      height: 100%;
+      height: 180%;
       /* L'image remplira le conteneur */
       object-fit: cover;
       /* Assure que l'image remplisse le cercle sans déformation */
@@ -66,14 +66,14 @@
   </style>
   <section id="profile">
     <div class="section__pic-container">
-      <img src="./assets/oussema.jpeg" alt="John Doe profile picture" class="profile-pic" />
+      <img src="./assets/oussema.jpg" alt="John Doe profile picture" class="profile-pic" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Mohamed Oussema Boussida</h1>
       <p class="section__text__p2">Software Engineering Student</p>
       <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/cv_version_anglais.pdf')">
+        <button class="btn btn-color-2" onclick="window.open('./assets/cv.pdf')">
           Download CV
         </button>
         <button class="btn btn-color-1" onclick="location.href='#contact'">
@@ -192,13 +192,6 @@
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
               <div>
-                <h3>Node JS</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
                 <h3>Express JS</h3>
                 <p>Experienced</p>
               </div>
@@ -213,7 +206,7 @@
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
               <div>
-                <h3>Spring Boot</h3>
+                <h3>Spring</h3>
                 <p>Experienced</p>
               </div>
             </article>
@@ -264,21 +257,7 @@
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
               <div>
-                <h3>Dart</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
                 <h3>Python</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Kotlin</h3>
                 <p>Basic</p>
               </div>
             </article>
@@ -304,7 +283,7 @@
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
               <div>
-                <h3>MongoDB</h3>
+                <h3>Mongo</h3>
                 <p>Experienced</p>
               </div>
             </article>
@@ -335,9 +314,16 @@
   <br></br>
   <style>
     .project-img {
-      width: 300px;
+      width: 80px;
       /* Ajustez la taille selon vos besoins */
-      height: 250px;
+      height: 80px;
+      /* Assurez-vous que la hauteur et la largeur sont égales */
+      /* Pour s'assurer que l'image reste dans les limites du conteneur */
+    }
+    .project-game {
+      width: 120px;
+      /* Ajustez la taille selon vos besoins */
+      height: 80px;
       /* Assurez-vous que la hauteur et la largeur sont égales */
       /* Pour s'assurer que l'image reste dans les limites du conteneur */
     }
@@ -349,7 +335,7 @@
       <div class="about-containers">
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/espritmarket.png" alt="Project 1" class="project-img" />
+            <img src="./assets/market.jpg" alt="Project 1" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">EspritMarket</h2>
           <br></br>
@@ -363,7 +349,7 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+            <img src="./assets/mobile.png" alt="Project 2" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">ITounsi</h2>
           <br></br>
@@ -376,7 +362,7 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/projetweb.png" alt="Project 3" class="project-img" />
+            <img src="./assets/medical.png" alt="Project 3" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Jasmineous</h2>
           <br></br>
@@ -393,7 +379,7 @@
       <div class="about-containers">
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project logo (1).png" alt="Project 1" class="project-img" />
+            <img src="./assets/project logo (1).png" alt="Project 1" class="project-game" />
           </div>
           <h2 class="experience-sub-title project-title">Royal Travelers</h2>
           <br></br>
@@ -407,7 +393,7 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/game.png" alt="Project 2" class="project-img" />
+            <img src="./assets/jeux.png" alt="Project 2" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Leaders Apocalypse</h2>
           <br></br>
